@@ -1,0 +1,12 @@
+serviceAccounts:
+  - name: "svc_account1"
+    logonTo: "PC1"
+    application: "App1"
+    requestorGroup: "IT-Support"
+    reason: "Maintenance"
+  - name: "svc_account2"
+    logonTo: "PC2"
+    application: "App2"
+    requestorGroup: "DevOps"
+    reason: "Application deployment"
+
